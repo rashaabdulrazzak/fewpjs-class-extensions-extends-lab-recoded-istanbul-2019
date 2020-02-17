@@ -8,6 +8,6 @@ class Polygon {
     return this.sides.length
   }
   get perimeter (){
-    
+    return this.sides.reduce(function(acc,ele){return acc += ele },0)
   }
 }
