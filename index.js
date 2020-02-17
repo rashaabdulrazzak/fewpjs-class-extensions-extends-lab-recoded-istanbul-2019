@@ -11,3 +11,6 @@ class Polygon {
     return this.sides.reduce(function(acc,ele){return acc += ele },0)
   }
 }
+class Triangle  extends Polygon{
+  
+}
