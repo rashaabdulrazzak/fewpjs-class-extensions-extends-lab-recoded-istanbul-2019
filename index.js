@@ -1,7 +1,11 @@
 // Your code here
 class Polygon {
   // array of parameter 
-  get countSides(){
-    for (el in sides )
+  constructor(sides){
+    this.sides = sides 
   }
+  get countSides(){
+    return this.sides.length
+  }
+  
 }
