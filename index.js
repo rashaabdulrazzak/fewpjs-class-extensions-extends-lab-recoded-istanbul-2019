@@ -20,6 +20,6 @@ class Triangle  extends Polygon{
 }
 class Square  extends Polygon{
   get isValid (){
-   return this.sides.every(val => val === arr[0]);
+   return this.sides.reduce(function(acc,ele){return acc && (ele === this.sides[0])},true)
   }
 }
