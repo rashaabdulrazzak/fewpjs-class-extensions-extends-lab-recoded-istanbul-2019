@@ -22,4 +22,7 @@ class Square  extends Polygon{
   get isValid (){
    return this.sides.reduce(function(acc,ele){return acc && (ele === this.sides[0])},true)
   }
+  get area (){
+    return Math.pow(this.sides[0],2)
+  }
 }
