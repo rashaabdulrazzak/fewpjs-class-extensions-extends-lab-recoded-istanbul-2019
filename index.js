@@ -18,3 +18,6 @@ class Triangle  extends Polygon{
     else return false
   }
 }
+class Square  extends Polygon{
+  
+}
